@@ -10,6 +10,7 @@ Linear search is a simple search algorithm that sequentially checks each element
 - If the end of the list is reached and the target element is not found, return a "not found" indicator.
 - If the target element is not found at the current index, recursively call the linear search function on the remaining elements in the list.
 - Repeat the recursive call until either the target element is found or the end of the list is reached.
-- The recursive linear search algorithm continues to search through the remaining elements one by one until the target element is found or all elements have been checked.
+
+The recursive linear search algorithm continues to search through the remaining elements one by one until the target element is found or all elements have been checked.
 
 💭 However, it's important to note that linear search using recursion may not be the most efficient approach compared to iterative methods, as recursion may result in additional function calls and overhead.
